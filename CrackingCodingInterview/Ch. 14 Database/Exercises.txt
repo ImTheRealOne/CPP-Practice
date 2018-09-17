@@ -1,0 +1,21 @@
+14 - 5
+	What is Normal form?
+		1)1st Normal Form
+			*no multi-value columns
+			*attribute domains should not change
+				-column types don't change
+			*column names are unique
+				-a table will not have columns with same names
+			*Order doesn't matter
+		2)2nd Normal Form
+			*already in 1st normal form
+			*No partial depedency
+				-a column depends on all primary keys in the table not just parts of primary keys
+				-remove partial depedency by removing attributes causing partial depedency to another table
+		3)3rd Normal Form
+			*already in 2nd normal form
+			*No transitive depedency
+				-if column a depends on column b and column b depends on column c
+					then break into 2 tables where table 1 is a & b and table 2 is b & c
+	
+	
