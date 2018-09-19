@@ -4,7 +4,7 @@ public class CountOf2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("total : " + BruteForce(20));
+		System.out.println("total : " + BruteForce(27));
 		
 		
 		System.exit(0);
@@ -12,7 +12,7 @@ public class CountOf2 {
 	
 	public static int BruteForce (int n) {
 		int count = 0;
-		for(int i =  0 ;i <= n ; i += 2) {
+		for(int i =  0 ;i <= n ; i ++) {
 			if(Integer.toString(i).contains("2")) {
 				System.out.println(i);
 				count++;
@@ -28,13 +28,9 @@ public class CountOf2 {
 		
 		for(int i = numberString.length(); i > 0; i--) {
 			if(numberString.charAt(i) > '2' ) {
-				if(i == numberString.length()) {
-					count +=1 ;
-				}
-				else {
-					multiplier += 10;
-				}
+				
 			}
+			
 			
 			
 		}

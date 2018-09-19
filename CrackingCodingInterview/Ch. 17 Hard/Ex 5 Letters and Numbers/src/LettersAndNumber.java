@@ -112,7 +112,7 @@ public class LettersAndNumber {
 		return minMaxIndex;
 	}
 	
-	
+	//return total number of number and letters as a pair respectively
 	public static Pair<Integer, Integer> getNumberOfNumAndLetter(char arr[]){
 		Pair<Integer, Integer> numberofNumandLetter = new Pair<Integer, Integer>(0,0);
 		int numberOfLetters = 0;
